@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+@background:#f9f9f9;
+@gray:#666666;
+@blue:#448C98;
+@title:#3F4962;
+@input:#f9f9f9;
+@cinzainput:#F2EDED;
+
+html{
+	background-color:@background;
+}
+
+body{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 400;
+	line-height: 2;
+	margin: 60px 0 0 0;
+
+	h1{
+		color:@title;
+		font-size: 40px;
+		font-weight: 400;
+		margin: 0;
+	}
+	p{
+		margin: 0;
+	}
+}
+
+header{
+	background-color:@background;
+	height: 60px;
+	margin: 0 auto;
+
+		ul {
+			text-align: center;
+			li{
+				display: inline;
+				margin-right: 30px;
+				@media only screen and (min-width: 900px) {
+					margin-right: 30px;
+			}
+			a:link, a:visited{
+				text-decoration: none;
+				color:@gray;
+				}
+				a:hover{
+					color:@blue;
+					text-decoration: underline;
+			}
+			a:active a:focus{
+				color:@blue;
+				text-decoration: underline;
+			}
+	}
+}
+}
+
+
+section#intro{
+	margin-top: 100px;
+	@media only screen and (min-width: 900px) {
+				margin-top: 100px;
+				margin-bottom: 100px;
+	}
+	.about-me{
+		color:@title;
+		clear: both;
+		font-size: 40px;
+		margin: 0 auto;
+		margin-bottom: 100px;
+		text-align: center;
+		width: 80%;
+		@media only screen and (min-width: 900px) {
+			font-size: 60px;
+			width: 60%;
+		}
+			.name{
+				font-size: 30px;
+				margin-bottom: -22px;
+			}
+		#changer {
+		    color:@blue;
+		}
+	}
+}
+
+section#picture{
+	.pic{
+		width: 200%;
+		margin-left: -50%;
+		margin-top: -6em;
+		@media only screen and (min-width: 900px) {
+			width: 100%;
+			margin: 0 auto;
+		}
+		@media only screen and (min-width: 1800px) {
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+}
+
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	@media only screen and (min-width: 900px) {
+		width: 60%;
+	}
+}
+
+section#experience{
+	background-color: @background;
+	@media only screen and (min-width: 900px) {
+			background-color: @background;
+			padding: 20px 0;
+		}
+		.havedone{
+			@media only screen and (min-width: 900px) {
+				margin: 0 auto;
+				margin-bottom: 10px;
+				-webkit-column-count: 2; /* Chrome, Safari, Opera */
+				-moz-column-count: 2; /* Firefox */
+				column-count: 2;
+				column-gap: 70px;
+			}
+			p{
+				margin: 0;
+				width: 100%;
+				font-size: 16px;
+				color: @title;
+				margin-right: 10px;
+			}
+			.firstcolumn{
+				margin-bottom: 20px;
+			}
+			.extra{
+				margin: 20px 0;
+				color: #999;
+			}
+			a:link, a:visited, a:active{
+				text-decoration: underline;
+				color: #25515C;
+				}
+				a:hover{
+					color:@blue;
+			}
+		}
+}
+
+
+section#footer{
+	background-color: @blue;
+	padding: 40px 0;
+	.extranote{
+		color: #FFF;
+		font-size: 13px;
+		margin: 0 auto;
+
+	}
+}
+
+@media only screen and (min-width: 900px) {
+
+}
