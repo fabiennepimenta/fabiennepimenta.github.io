@@ -23,6 +23,23 @@ body{
 		font-weight: 400;
 		margin: 0;
 	}
+
+	h2{
+		color: white;
+		font-size: 22px;
+		font-weight: 400;
+		margin: 0;
+		@media only screen and (min-width: 500px) {
+			font-size: 30px;
+		}
+	}
+
+	h3{
+		color:white;
+		font-size: 20px;
+		font-weight: 200;
+		margin: 0;
+	}
 	p{
 		margin: 0;
 	}
@@ -129,7 +146,7 @@ section#picture{
 	margin: 0 auto;
 	margin-bottom: 50px;
 	@media only screen and (min-width: 900px) {
-		width: 60%;
+		width: 70%;
 		margin-bottom: 100px;
 	}
 }
@@ -150,7 +167,7 @@ section#experience{
 			p{
 				margin: 0;
 				width: 100%;
-				font-size: 16px;
+				font-size: 18px;
 				color: @title;
 				margin-right: 10px;
 			}
@@ -183,6 +200,10 @@ section#work{
 			width: 100%;
 		}
 		.descriptioncase{
+			p{
+				font-size: 18px;
+				color: @title;
+			}
 			width: 100%;
 			padding-bottom: 30px;
 			@media only screen and (min-width: 768px) {
@@ -218,13 +239,32 @@ section#work{
 
 section#footer{
 	background-color: @title;
-	padding: 40px 0;
-
+	padding: 100px 0 10px 0;
 	.extranote{
-		color: #FFF;
-		font-size: 13px;
 		margin: 0 auto;
+		text-align: center;
 
+		ul{
+			list-style: none;
+			padding: 0;
+			li{
+				display:  -webkit-inline-box;
+				padding: 0 20px;
+				width: 50px;
+			}
+		}
+		a:active, a:focus, a:link, a:visited{
+			color:white;
+			text-decoration: underline;
+			}
+		a:hover{
+				color:@blue;
+				cursor: pointer;
+				text-decoration: underline;
+		}
+		.icons{
+			margin-top: 60px;
+		}
 	}
 }
 
