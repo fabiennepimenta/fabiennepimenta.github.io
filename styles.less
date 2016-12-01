@@ -8,7 +8,7 @@
 @cinzainput:#F2EDED;
 
 html{
-	background-color:@background;
+	background-color:white;
 }
 
 body{
@@ -26,10 +26,17 @@ body{
 	p{
 		margin: 0;
 	}
+	a:active, a:focus, a:link, a:visited{
+		color:@blue;
+		text-decoration: underline;
+		}
+	a:hover{
+			color:@title;
+			text-decoration: underline;
+	}
 }
 
 header{
-	background-color:@background;
 	height: 60px;
 	margin: 0 auto;
 
@@ -105,16 +112,14 @@ section#picture{
 .wrapper{
 	width: 80%;
 	margin: 0 auto;
-	margin-bottom: 10px;
+	margin-bottom: 100px;
 	@media only screen and (min-width: 900px) {
 		width: 60%;
 	}
 }
 
 section#experience{
-	background-color: @background;
 	@media only screen and (min-width: 900px) {
-			background-color: @background;
 			padding: 20px 0;
 		}
 		.havedone{
@@ -151,9 +156,41 @@ section#experience{
 }
 
 
+
+section#work{
+	padding-top: 60px;
+	background-color:@background;
+	position: relative;
+	.usecase{
+		@media only screen and (min-width: 900px) {
+			display: inline-flex;
+			width: 100%;
+		}
+		.descriptioncase{
+			width: 100%;
+			@media only screen and (min-width: 900px) {
+				width: 60%;
+				padding-right: 40px;
+			}
+		}
+		}
+		.imagecase{
+			width: 100%;
+			background-size: 100%;
+			@media only screen and (min-width: 900px) {
+				width: 30%;
+				right: 150px;
+				top: -40px;
+				position: absolute;
+			}
+	}
+}
+
+
 section#footer{
-	background-color: @blue;
+	background-color: @title;
 	padding: 40px 0;
+
 	.extranote{
 		color: #FFF;
 		font-size: 13px;
