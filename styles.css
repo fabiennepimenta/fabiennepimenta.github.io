@@ -38,6 +38,7 @@ body a:active,
 body a:focus,
 body a:link,
 body a:visited {
+  font-size: 18px;
   color: #448c98;
   text-decoration: underline;
 }
@@ -177,15 +178,6 @@ section#experience .havedone .extra {
   margin: 20px 0;
   color: #999;
 }
-section#experience .havedone a:link,
-section#experience .havedone a:visited,
-section#experience .havedone a:active {
-  text-decoration: underline;
-  color: #25515C;
-}
-section#experience .havedone a:hover {
-  color: #448c98;
-}
 section#work {
   padding-top: 60px;
   background-color: #f9f9f9;
@@ -260,11 +252,11 @@ section#footer .extranote a:active,
 section#footer .extranote a:focus,
 section#footer .extranote a:link,
 section#footer .extranote a:visited {
+  font-size: 20px;
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 section#footer .extranote a:hover {
-  color: #448c98;
   cursor: pointer;
   text-decoration: underline;
 }
