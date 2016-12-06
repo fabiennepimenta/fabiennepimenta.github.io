@@ -115,6 +115,11 @@ section#picture {
     height: 800px;
   }
 }
+@media only screen and (min-width: 1800px) {
+  section#picture {
+    height: 650px;
+  }
+}
 section#picture .pic {
   width: 100%;
   height: 600px;
@@ -132,6 +137,13 @@ section#picture .pic {
   section#picture .pic {
     height: 720px;
     background-position-x: 0;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  section#picture .pic {
+    height: 650px;
+    background-position-x: center;
+    background-size: 70%;
   }
 }
 .wrapper {
@@ -245,7 +257,7 @@ section#footer .extranote ul {
 }
 section#footer .extranote ul li {
   display: -webkit-inline-box;
-  padding: 0 20px;
+  padding: 0 16px;
   width: 50px;
 }
 section#footer .extranote a:active,
