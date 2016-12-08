@@ -247,6 +247,9 @@ section#footer {
   background-color: #3f4962;
   padding: 100px 0 10px 0;
 }
+section#footer .wrapper {
+  width: 95%;
+}
 section#footer .extranote {
   margin: 0 auto;
   text-align: center;
