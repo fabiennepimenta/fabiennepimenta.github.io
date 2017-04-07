@@ -1,2 +1,210 @@
-@charset "UTF-8";html{background-color:#fffbf1;height:100%}body{font-family:'Raleway',sans-serif;font-weight:400;height:100%;line-height:2;margin:0 0}body h1{color:#fff;font-size:40px;font-weight:600;margin:0;line-height:normal}@media only screen and (min-width: 960px){body h1{ font-size:55px}}body h2{color:#fff;font-size:25px;font-weight:500;margin:0}@media only screen and (min-width: 960px){body h2{ font-size:30px}}body h3{color:#fff;font-size:20px;font-weight:200;margin:0}body p{margin:0}body a:active,body a:focus,body a:link,body a:visited{color:#ca5757;text-decoration:underline}body a:hover{color:#a54747;cursor:pointer;text-decoration:underline}#container{background-color:#fffbf1;display:flex;height:auto;max-width:1400px;flex-wrap:wrap}@media only screen and (min-width: 1000px){#container{ flex-wrap:nowrap;height:100%}}#container .pic{display:flex;background:url("images/fabi.jpg") center center no-repeat;background-size:cover;width:100%;height:20em}@media only screen and (min-width: 960px){#container .pic{ width:40%;height:auto}}#container .pic .legend{margin:0 auto;text-align:center;align-self:flex-end}#container .pic .icons{margin:1em 0}#container .pic .icons a{opacity:.7}#container .pic .icons a img{padding:0 .5em;width:2em;height:2em}#container .pic .icons a:hover{opacity:100}#container .text{width:100%}@media only screen and (min-width: 960px){#container .text{ width:60%}}#container .text .info{margin:2.5em auto;width:85%}@media only screen and (min-width: 690px){#container .text .info{ width:70%}}#container .text .info h1{color:#ca5757}#container .text .info p{margin-top:3em}#container .text .experience{width:85%;margin:0 auto;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-start;align-items:flex-start;align-content:flex-start}@media only screen and (min-width: 690px){#container .text .experience{ width:70%}}#container .text .experience .dates p{display:inline;color:#666;margin-right:.3em;font-size:14px}@media only screen and (min-width: 500px){#container .text .experience .dates p{ font-size:16px;display:inline-block;width:11em}}#container .text .experience .dates span{font-size:14px}@media only screen and (min-width: 500px){#container .text .experience .dates span{ font-size:16px}}#container .text .experience .workplace{line-height:2em}#container .text .usecase{width:85%;margin:3em auto;margin-bottom:0}@media only screen and (min-width: 690px){#container .text .usecase{ width:70%}}#container .text .usecase a{background-color:#ca5757;border-radius:.4em;color:#fff;font-size:18px;font-family:'Raleway',sans-serif;font-weight:400;padding:1em 3em;text-decoration:none}#container .text .usecase a:hover{background-color:#a54747}#container .text .usecase p{margin-top:1.5em;width:85%;font-size:14px;line-height:1.5em;color:#666;margin-bottom:3em}@media only screen and (min-width: 900px){#container .text .usecase p{ width:100%;margin-bottom:0}}@media only screen and (min-width: 1200px){#container .text .usecase p{ width:50%}}
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+@charset "UTF-8";
+html {
+  background-color: #fffbf1;
+  height: 100%;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  height: 100%;
+  line-height: 2;
+  margin: 0 0;
+}
+body h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
+  line-height: normal;
+}
+@media only screen and (min-width: 960px) {
+  body h1 {
+    font-size: 55px;
+  }
+}
+body h2 {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+}
+@media only screen and (min-width: 960px) {
+  body h2 {
+    font-size: 30px;
+  }
+}
+body h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0;
+}
+body p {
+  margin: 0;
+}
+body a:active,
+body a:focus,
+body a:link,
+body a:visited {
+  color: #ca5757;
+  text-decoration: underline;
+}
+body a:hover {
+  color: #a54747;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#container {
+  background-color: #fffbf1;
+  display: flex;
+  height: auto;
+  max-width: 1400px;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 1000px) {
+  #container {
+    flex-wrap: nowrap;
+    height: 100%;
+  }
+}
+#container .pic {
+  display: flex;
+  background: url("images/fabi.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 20em;
+}
+@media only screen and (min-width: 960px) {
+  #container .pic {
+    width: 40%;
+    height: auto;
+  }
+}
+#container .pic .legend {
+  margin: 0 auto;
+  text-align: center;
+  align-self: flex-end;
+}
+#container .pic .icons {
+  margin: 1em 0;
+}
+#container .pic .icons a {
+  opacity: 0.7;
+}
+#container .pic .icons a img {
+  padding: 0 0.5em;
+  width: 2em;
+  height: 2em;
+}
+#container .pic .icons a:hover {
+  opacity: 100;
+}
+#container .text {
+  width: 100%;
+}
+@media only screen and (min-width: 960px) {
+  #container .text {
+    width: 60%;
+  }
+}
+#container .text .info {
+  margin: 2.5em auto;
+  width: 85%;
+}
+@media only screen and (min-width: 690px) {
+  #container .text .info {
+    width: 70%;
+  }
+}
+#container .text .info h1 {
+  color: #ca5757;
+}
+#container .text .info p {
+  margin-top: 3em;
+}
+#container .text .experience {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+@media only screen and (min-width: 690px) {
+  #container .text .experience {
+    width: 70%;
+  }
+}
+#container .text .experience .dates p {
+  display: inline;
+  color: #666666;
+  margin-right: 0.3em;
+  font-size: 14px;
+}
+@media only screen and (min-width: 500px) {
+  #container .text .experience .dates p {
+    font-size: 16px;
+    display: inline-block;
+    width: 11em;
+  }
+}
+#container .text .experience .dates span {
+  font-size: 14px;
+}
+@media only screen and (min-width: 500px) {
+  #container .text .experience .dates span {
+    font-size: 16px;
+  }
+}
+#container .text .experience .workplace {
+  line-height: 2em;
+}
+#container .text .usecase {
+  width: 85%;
+  margin: 3em auto;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 690px) {
+  #container .text .usecase {
+    width: 70%;
+  }
+}
+#container .text .usecase a {
+  background-color: #ca5757;
+  border-radius: 0.4em;
+  color: white;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  padding: 1em 1.5em;
+  text-decoration: none;
+}
+@media only screen and (min-width: 500px) {
+  #container .text .usecase a {
+    padding: 1em 3em;
+  }
+}
+#container .text .usecase a:hover {
+  background-color: #a54747;
+}
+#container .text .usecase p {
+  margin-top: 1.5em;
+  width: 85%;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #666666;
+  margin-bottom: 3em;
+}
+@media only screen and (min-width: 900px) {
+  #container .text .usecase p {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #container .text .usecase p {
+    width: 50%;
+  }
+}
