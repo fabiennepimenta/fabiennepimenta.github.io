@@ -9,6 +9,7 @@ body {
   height: 100%;
   line-height: 2;
   margin: 0 0;
+  background-color: #ca5757;
 }
 body h1 {
   color: white;
@@ -55,16 +56,20 @@ body a:hover {
   text-decoration: underline;
 }
 #container {
-  background-color: #fffbf1;
+  width: 100;
+  margin: 0 auto;
+  background-color: #ca5757;
   display: flex;
   height: auto;
   max-width: 1400px;
   flex-wrap: wrap;
+  padding: 1em;
 }
 @media only screen and (min-width: 1000px) {
   #container {
     flex-wrap: nowrap;
-    height: 100%;
+    height: 100;
+    padding: 1.5em;
   }
 }
 #container .pic {
@@ -101,6 +106,7 @@ body a:hover {
 }
 #container .text {
   width: 100%;
+  background-color: #fffbf1;
 }
 @media only screen and (min-width: 960px) {
   #container .text {
@@ -120,7 +126,7 @@ body a:hover {
   color: #ca5757;
 }
 #container .text .info p {
-  margin-top: 3em;
+  margin-top: 2.5em;
 }
 #container .text .experience {
   width: 85%;
@@ -163,7 +169,7 @@ body a:hover {
 }
 #container .text .usecase {
   width: 85%;
-  margin: 3em auto;
+  margin: 2.5em auto;
   margin-bottom: 0;
 }
 @media only screen and (min-width: 690px) {
@@ -178,29 +184,29 @@ body a:hover {
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  padding: 1em 1.5em;
+  padding: 0.8em 1.5em;
   text-decoration: none;
 }
 @media only screen and (min-width: 500px) {
   #container .text .usecase a {
-    padding: 1em 3em;
+    padding: 0.8em 3em;
   }
 }
 #container .text .usecase a:hover {
   background-color: #a54747;
 }
 #container .text .usecase p {
-  margin-top: 1.5em;
+  margin-top: 1em;
   width: 85%;
   font-size: 14px;
   line-height: 1.5em;
   color: #666666;
-  margin-bottom: 3em;
+  margin-bottom: 2.5em;
 }
 @media only screen and (min-width: 900px) {
   #container .text .usecase p {
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 1.5em;
   }
 }
 @media only screen and (min-width: 1200px) {
