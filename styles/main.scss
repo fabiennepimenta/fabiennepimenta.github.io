@@ -14,7 +14,7 @@ body {
 
 h3{
   color: #999;
-  font-size: 0.7em;
+  font-size: 0.65em;
   font-weight: 300;
   text-transform: uppercase;
     @media only screen and (min-width: 820px) {
@@ -24,6 +24,7 @@ h3{
 
 
 h1{
+  color: #333;
   font-size: 1.8em;
   font-weight: 400;
   margin-bottom: 0.5em;
@@ -36,14 +37,16 @@ h2{
   font-size: 1em;
   margin-bottom: 1em;
   font-weight: 400;
+  color: #333;
 }
 
 a{
-  color: #999;
+  color: #333;
   font-size: 0.7em;
   text-transform: uppercase;
   text-decoration: none;
-  padding-right: 2vw;
+  padding-right: 3vw;
+  font-weight: 400;
   @media only screen and (min-width: 820px) {
   font-size: 0.8em;
   }
@@ -53,7 +56,6 @@ a:hover{
 text-decoration: underline;
 color: #3797D9;
 }
-
 
 // Header menu
 
@@ -68,6 +70,7 @@ color: #3797D9;
     padding: 0;
   }
 }
+
 
 
 // Title and description
@@ -166,7 +169,7 @@ color: #3797D9;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: solid 1px #ededed;
+    border-top: solid 1px #ededed;
     .image{
       width: 100vw;
       order: 1;
