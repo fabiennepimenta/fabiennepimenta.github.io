@@ -269,28 +269,29 @@ a:hover {
 }
 
 .work {
-    width: 100vw;
-    height: 400px;
+    width: 80vw;
+    height: auto;
     margin: 11vw auto
 }
 
 .work .mywork {
-    width: 100vw;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-top: solid 1px #ededed
+    background-color: white;
+    margin-bottom: 2em;
 }
 
 .work .mywork .image {
-    width: 100vw;
+    width: 30vw;
     order: 1;
     line-height: 0
 }
 
 @media only screen and (min-width: 820px) {
     .work .mywork .image {
-        width: 50vw
+        width: 30vw
     }
 }
 
@@ -317,7 +318,19 @@ a:hover {
 
 @media only screen and (min-width: 820px) {
     .work .mywork .usecase {
-        width: 49vw;
+        width: 50vw;
         margin-bottom: 0
     }
+}
+#footer{
+    position: relative;
+}
+
+#footer .description a {
+    text-transform: none;
+    text-decoration: underline;
+    font-size: 1em;
+    margin-bottom: 1em;
+    font-weight: 300;
+    color: #333
 }
