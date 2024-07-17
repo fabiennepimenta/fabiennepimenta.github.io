@@ -207,7 +207,7 @@ a:hover {
 
 @media only screen and (min-width: 820px) {
     .about {
-        width: 70vw;
+        width: 80vw;
         padding: 5vw
     }
 
@@ -263,8 +263,8 @@ a:hover {
 
 @media only screen and (min-width: 820px) {
     .sectiontitle {
-        width: 70vw;
-        padding: 0 0 0 5vw
+        width: 80vw;
+        padding: 0
     }
 }
 
@@ -298,8 +298,8 @@ a:hover {
 .work .mywork .usecase {
     width: 100vw;
     order: 2;
-    padding: 4vw;
-    margin-bottom: 8vw
+    padding: 2vw 4vw;
+    margin-bottom: 4vw
 }
 
 .work .mywork .usecase h3 {
